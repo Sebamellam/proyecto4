@@ -37,6 +37,7 @@ export const Agenda = () => {
 
   return (
     <>
+    <h1>Reserva de hora</h1>
       <input
         type='string'
         placeholder='Name'
