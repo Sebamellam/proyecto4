@@ -4,7 +4,7 @@ import data from '../data.json'
 
 export const ProductDetail = () => {
     const { sku } = useParams() 
-    const productSelected = data.products.filter(product => product.sku === sku)
+    const productSelected = data.products.filter(product => product.sku == sku)
   return (
     <>
     <h1>{productSelected[0].name}</h1>
