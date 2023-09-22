@@ -10,7 +10,7 @@ export const Products = () => {
       {
         data.products.map(product => (
           <Card key= {product.sku} style={{ width: '18rem' }}>
-            <img variant="top" src="" />
+            <img variant="top" src={product.photo} />
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
               <Card.Text>{product.price}</Card.Text>
