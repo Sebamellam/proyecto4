@@ -6,6 +6,7 @@ import { Products } from "./routes/Products"
 import { Agenda } from "./routes/Agenda"
 import { Blog } from "./routes/Blog"
 import { ProductDetail } from "./routes/ProductDetail"
+import { Footer } from "./components/Footer"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/proyecto4/blog" element={<Blog />} />
         <Route path="/proyecto4/products/:sku" element={<ProductDetail />} />
       </Routes>
+      <Footer/>
     </>
 
   )
