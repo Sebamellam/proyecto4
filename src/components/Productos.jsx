@@ -7,7 +7,7 @@ import data from '../data.json'
 export const Products = () => {
   return (
     <>
-    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div  style={{ display: 'flex', flexWrap: 'wrap' }}>
       {
         data.products.map(product => (
           <Card key= {product.sku} style={{ width: '18rem' }}>
