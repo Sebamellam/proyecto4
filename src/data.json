@@ -1,0 +1,77 @@
+{
+    "products": [
+        {
+            "name": "Tijera filo de navaja",
+            "family":"Tijeras",
+            "sku": "82250",
+            "price": "$25.500",
+            "description": "Tijera filo de navaja 5`",
+            "photo": ""
+        },
+        {
+            "name": "Maquina desvelladora",
+            "family":"Maquinas",
+            "sku": "67345",
+            "price": "$89.900",
+            "description": "5000 rpm motor ac",
+            "photo": ""
+        },
+        {
+            "name": "Peineta",
+            "family":"Accesorios",
+            "sku": "84902",
+            "price": "$5.500",
+            "description": "Material de cobre ionizada`",
+            "photo": ""
+        },
+        {
+            "name": "Tijera filo de navaja",
+            "family":"Tijeras",
+            "sku": "87907",
+            "price": "$25.500",
+            "description": "Tijera filo de navaja 5`",
+            "photo": ""
+        },
+        {
+            "name": "Maquina desvelladora",
+            "family":"Maquinas",
+            "sku": "45632",
+            "price": "$89.900",
+            "description": "5000 rpm motor ac",
+            "photo": ""
+        },
+        {
+            "name": "Peineta",
+            "family":"Accesorios",
+            "sku": "78357",
+            "price": "$5.500",
+            "description": "Material de cobre ionizada`",
+            "photo": ""
+        },
+        {
+            "name": "Tijera filo de navaja",
+            "family":"Tijeras",
+            "sku": "34508",
+            "price": "$25.500",
+            "description": "Tijera filo de navaja 5`",
+            "photo": ""
+        },
+        {
+            "name": "Maquina desvelladora",
+            "family":"Maquinas",
+            "sku": "89047",
+            "price": "$89.900",
+            "description": "5000 rpm motor ac",
+            "photo": ""
+        },
+        {
+            "name": "Peineta",
+            "family":"Accesorios",
+            "sku": "37195",
+            "price": "$5.500",
+            "description": "Material de cobre ionizada`",
+            "photo": ""
+        }
+
+    ]
+}
