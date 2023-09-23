@@ -3,6 +3,8 @@ import { db } from "../firebase"
 import { getDocs, collection, addDoc, deleteDoc, doc } from "firebase/firestore"
 import Table from 'react-bootstrap/Table';
 import { Button } from "react-bootstrap";
+import { Confirmacion } from "../components/Confirmacion";
+
 
 export const Agenda = () => {
   const reservaCollectionRef = collection(db, 'reserva')
@@ -97,6 +99,7 @@ export const Agenda = () => {
           }
         </tbody>
       </Table>
+      <Confirmacion reserva={reserva}/>
     </>
   )
 }
